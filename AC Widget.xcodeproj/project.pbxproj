@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -266,7 +266,6 @@
 		45E8C4742612512E007F9B0E = {
 			isa = PBXGroup;
 			children = (
-				45E8C4A62612531E007F9B0E /* WidgetsExtension.entitlements */,
 				45E8C47F2612512E007F9B0E /* AC Widget */,
 				45E8C49A2612531D007F9B0E /* Widgets */,
 				45FD5194261915F200603D8A /* WidgetIntentExtension */,
@@ -316,6 +315,7 @@
 		45E8C49A2612531D007F9B0E /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
+				45E8C4A62612531E007F9B0E /* WidgetsExtension.entitlements */,
 				45E8C49B2612531D007F9B0E /* Widgets.swift */,
 				CB28AEE42615D28F00B48215 /* SummarySmall.swift */,
 				CB28AEE92615D2BB00B48215 /* SummaryMedium.swift */,
@@ -848,7 +848,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_ASSET_PATHS = "\"AC Widget/Preview Content\"";
-				DEVELOPMENT_TEAM = E348R9JYR6;
+				DEVELOPMENT_TEAM = 3A96ECR98N;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "AC Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -857,7 +857,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.kruschel.AC-Widget";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sje.AppStoreConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
@@ -879,7 +879,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_ASSET_PATHS = "\"AC Widget/Preview Content\"";
-				DEVELOPMENT_TEAM = E348R9JYR6;
+				DEVELOPMENT_TEAM = 3A96ECR98N;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "AC Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -888,7 +888,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.kruschel.AC-Widget";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sje.AppStoreConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
@@ -903,10 +903,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = WidgetsExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Widgets/WidgetsExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
-				DEVELOPMENT_TEAM = E348R9JYR6;
+				DEVELOPMENT_TEAM = 3A96ECR98N;
 				INFOPLIST_FILE = Widgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -916,7 +916,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.kruschel.AC-Widget.Widgets";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sje.AppStoreConnect.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -932,10 +932,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = WidgetsExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Widgets/WidgetsExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
-				DEVELOPMENT_TEAM = E348R9JYR6;
+				DEVELOPMENT_TEAM = 3A96ECR98N;
 				INFOPLIST_FILE = Widgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -945,7 +945,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.kruschel.AC-Widget.Widgets";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sje.AppStoreConnect.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -962,7 +962,7 @@
 				CODE_SIGN_ENTITLEMENTS = WidgetIntentExtension/WidgetIntentExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
-				DEVELOPMENT_TEAM = E348R9JYR6;
+				DEVELOPMENT_TEAM = 3A96ECR98N;
 				INFOPLIST_FILE = WidgetIntentExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -971,7 +971,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.kruschel.AC-Widget.WidgetIntentExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sje.AppStoreConnect.WidgetIntentExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -986,7 +986,7 @@
 				CODE_SIGN_ENTITLEMENTS = WidgetIntentExtension/WidgetIntentExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 15;
-				DEVELOPMENT_TEAM = E348R9JYR6;
+				DEVELOPMENT_TEAM = 3A96ECR98N;
 				INFOPLIST_FILE = WidgetIntentExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -995,7 +995,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.kruschel.AC-Widget.WidgetIntentExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sje.AppStoreConnect.WidgetIntentExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;

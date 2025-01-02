@@ -140,7 +140,7 @@ class AppStoreConnectApi {
 
         let str = String(decoding: decompressedData, as: UTF8.self)
 
-        guard let tsv: CSV = try? CSV(string: str, delimiter: "\t") else {
+        guard let tsv: CSV = try? CSV<Enumerated>(string: str, delimiter: "\t") else {
             #if DEBUG
             fatalError()
             #else
@@ -149,7 +149,7 @@ class AppStoreConnectApi {
         }
 
         try? tsv.enumerateAsDict { dict in
-            let parentId: String = dict["Parent Identifier"]?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
+          let parentId: String = dict["Parent Identifier"]?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
             let sku: String = dict["SKU"]?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
 
             var proceeds = Double(dict["Developer Proceeds"] ?? "0.00") ?? 0
